@@ -12,17 +12,45 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--text-color);
 }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+}
 
 /*--------- HEADER ---------*/
 .header {
   background-color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 span {
   color: var(--selection-color);
@@ -64,6 +92,8 @@ span {
 /*--------- HERO INDEX.html---------*/
 .hero {
   background-color: var(--hero-color);
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .hero-title {
   font-weight: 900;
@@ -73,6 +103,7 @@ span {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .hero-btn {
   font-family: inherit;
@@ -85,11 +116,16 @@ span {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 500px;
 }
 .hero-btn:hover {
   background-color: #188ce8;
 }
 /*--------- MAIN BENEFITS INDEX.html---------*/
+.benefits {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -105,16 +141,23 @@ span {
   color: var(--text-color);
 }
 /*--------- MAIN ABOUT INDEX.html---------*/
+.about {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
 .about-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 /*--------- MAIN OUR TEAM INDEX.html---------*/
 .team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-title {
   font-weight: 700;
@@ -122,6 +165,7 @@ span {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  margin-bottom: 50px;
 }
 .team-name {
   font-weight: 500;
@@ -136,6 +180,10 @@ span {
   letter-spacing: 0.03em;
 }
 /*--------- FILTER PORTFOLIO.html---------*/
+.filter {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .filter-btn {
   font-style: inherit;
   font-weight: 500;
@@ -155,6 +203,9 @@ span {
   background-color: var(--selection-color);
 }
 /*--------- MAIN PORTFOLIO.html---------*/
+.main {
+  padding-bottom: 94px;
+}
 .main-title {
   font-weight: 700;
   font-size: 18px;
@@ -170,6 +221,8 @@ span {
 /*--------- FOOTER---------*/
 .footer {
   background-color: var(--hero-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
